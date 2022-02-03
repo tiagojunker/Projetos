@@ -8,6 +8,11 @@ src: url(fontes/idroid.otf) format("opentype");}
     font-family: arial, sans-serif;
 }
 
+:root{
+--cor0:  #3ae8b1fc;  /*Atribuindo variavel cor*/
+
+}
+
 html{
     height: 100%;
     width: 100%;
@@ -34,43 +39,60 @@ header > h2{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 0.7rem; 
-    width: 31%; /*Limitação do tamanho da caixa*/
+    max-width: 420px; /*Limitação do tamanho da caixa*/
     margin: auto; /*Alinhamento da caixa*/
-    color: rgba(255, 255, 255, 0.836);
-    
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.836);    
 }
 
 nav{
-    text-align: left;
-        
+    text-align: left;        
 }
-
 
 
 nav > a{
     color: white;
     padding: 10px;
     text-decoration: none;
+    font-weight:bold;
+    transition-duration: 0s;
+}
 
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.596) ;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-radius: 3px;
+    color: rgba(63, 138, 114, 0.99);
 }
 
 #init{
     padding-left: 0px;
 }
 
+img{
+    width: 100%;
+}
+
 p{
-    line-height: 1.6;
+    text-indent: 30px;
+    line-height: 1.6rem;
     height: 5%;
     padding: 15PX 0PX 15PX 0PX;
 }
     
 
-main{background-color: white;
+main{
+    min-width: 300px;
+    max-width: 800px;
+    background-color: white;
     margin-left: 18%;
     margin-right: 18%;
     padding: 10px;
     text-align: center;
     border-radius: 0px 0px 10px 10px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.726);
 }
 
 main > h1, h2{
@@ -91,17 +113,33 @@ section > h2{
     margin: 1.5%;
 }
 
-aside{
+.bugd{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+div.video{                 /*Responsividade de video inicio*/
     background-color: #007952;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 55%;
     border-radius: 5px;
+    position: relative;
 }
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}                            /*Responsividade de video Fim*/
 
 .crdit{
     background-color: rgb(177, 255, 230);
     border-radius: 10px;
 }
+
 
 .crdit > h2{
     font-family: Arial, sans-serif;
@@ -111,12 +149,13 @@ aside{
     font-size: 1rem;
     padding: 5px;
     text-transform:none;
-    color: rgba(255, 255, 255, 0.774);
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.137);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.534);
 }
 
 ul{
     list-style: none;
+    columns: 2;
     padding-top: 15PX;
 }
 
@@ -133,6 +172,12 @@ footer{
     color: white;
     font-size: 0.8rem
 }
+
+
+
+
+
+
 
 
 
