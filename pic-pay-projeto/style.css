@@ -6,6 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 header{
     background-color: #21c25e;
     display: flex;
@@ -31,14 +36,14 @@ header{
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: center;       
     margin-top: 5px;
     margin-bottom: 5px;
    
 }
 
 .item{
-    padding: 0px 25px;
+    padding: 5px 25px;
     color: white;
     transition: 0.6s;
     cursor: pointer;
@@ -71,13 +76,14 @@ main{
 
 .section1{    
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;        
+    display: flex;    
+    flex-wrap: wrap; 
+    justify-content: space-around;    
 }
 
 
 .text1{
-    max-width: 800px;
+    max-width: 600px;
     text-align: center;
     display: flex;
     font-size: small;
@@ -114,4 +120,18 @@ button.btn2{
     font-size: 1.0rem;
     cursor: pointer; 
     margin-left: 10px; 
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #21c25e;
+    color: white;
+    padding: 10px;
+    margin: 0;    
+}
+
+footer p, a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
 }
