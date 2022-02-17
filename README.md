@@ -4,7 +4,7 @@ Sessão dedicada a deixar os projetos de HTML5 e CSS3 já concluidos!
 <br>Projetos Propostos:
 <br>
 
-Site <a href="https://tiagojunker.github.io/Projetos/bugdroid/index.html" target="_blank">Bugdroid</a> é um dite feito no curso do canal
+Site <a href="https://tiagojunker.github.io/Projetos/bugdroid/index.html" target="_blank">Bugdroid</a> é um site feito no curso do canal
 "Curso em Video" para melhorar as habilidades de HTML5 e CSS3 básicos.
 
 O Site clone <a href="https://tiagojunker.github.io/Projetos/pic-pay-projeto/index.html" target="_blank">PicPay</a> foi feito para treinar o posicionamento
