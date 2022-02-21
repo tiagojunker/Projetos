@@ -10,4 +10,4 @@ Site <a href="https://tiagojunker.github.io/Projetos/bugdroid/index.html" target
 O Site clone <a href="https://tiagojunker.github.io/Projetos/pic-pay-projeto/index.html" target="_blank">PicPay</a> foi feito para treinar o posicionamento
 de elementos com flexbox.
 
-Site criado simulando um<a href="https://tiagojunker.github.io/Projetos/eComerce/index.html">e-Comerce</a> de Roupas!
+Site criado simulando um <a href="https://tiagojunker.github.io/Projetos/eComerce/index.html">e-Comerce</a> de Roupas e acessórios masculinos.
