@@ -65,7 +65,7 @@ main{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
-    padding-top: 240px;
+    padding-top: 180px;
     padding-bottom: 120px;
 }
 
