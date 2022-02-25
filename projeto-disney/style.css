@@ -3,5 +3,264 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: arial, sans-serif;
+    font-family: helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    padding-left: 3vw;
+    background-color: #081027;
+    align-items: center;
+}
+
+header img{    
+    width: 80px;
+}
+
+header div{
+    margin-right: 7vw;
+}
+
+header > div > button{
+    background-color: #081027;
+    padding: 15px 18px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 1.1rem ;
+}
+
+.assine{
+    background-color: #0063e5;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.assine:hover{
+    background-color: #026df8;
+}
+
+.entrar{
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px white;
+    transition: 0.3s;
+}
+
+.entrar:hover{
+    background-color: white;
+    color: #081027;
+}
+
+main{
+    background-color: #040814;
+}
+
+.s1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    padding-top: 240px;
+    padding-bottom: 120px;
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    max-width: 800px;
+}
+
+.text1> .title1{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 100%;
+    align-self: center;
+}
+
+.text1 > img{
+    max-width: 50%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    margin: 20px 0;   
+}
+
+.btn button{
+    width: 100%;
+    padding: 2% 25%;
+    border-radius: 5px;
+    background-color: #0063e5;
+    color: white;
+    border: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    transition: 0.3s;
+
+}
+
+.btn button:hover{
+    background-color: #026df8;
+}
+
+.text1 > .info1{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.img1 > img{
+    padding: 0 2%;
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.img2{
+    width: 45%;
+    min-width: 350px;
+    margin-bottom: 30px;
+}
+
+.img2 img{ 
+    width: 100%;
+    min-width: 350px;
+}
+
+.text2{
+    max-width: 42%;
+    min-width: 400px;
+    color: white;
+}
+
+.text2 h2{
+    width: 95%;
+    font-size: 2.4rem;
+    padding: 40px 40px 20px 20px;
+}
+
+.text2 p{
+    margin: 25px 20px;
+    line-height: 2rem;
+    font-size: 1.1em;
+    color: rgb(175, 175, 175);
+}
+
+.s3{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.img3{
+    width: 45%;
+    min-width: 410px;
+    margin-bottom: 30px;
+}
+
+.img3 img{ 
+    width: 100%;
+    min-width: 350px;
+}
+
+.text3{
+    max-width: 42%;
+    min-width: 400px;
+    color: white;
+}
+
+.text3 p{
+    margin: 25px 20px;
+    line-height: 2rem;
+    font-size: 1.1em;
+    color: rgb(175, 175, 175);
+}
+
+.btn3{
+    max-width: 45%;
+    min-width: 320px;
+}
+
+.btn3 button{
+    width: 100%;
+    padding: 20px 40px;
+    margin: 25px 40px;
+    border-radius: 5px;
+    background-color: #0063e5;
+    color: white;
+    border: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.btn3 button:hover{
+    background-color: #026df8;
+}
+
+/*-------------------------*/
+
+.s4{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.img4{
+    width: 45%;
+    min-width: 420px;
+    margin-bottom: 30px;
+}
+
+.img4 img{ 
+    width: 100%;
+    min-width: 350px;
+}
+
+.text4{
+    max-width: 42%;
+    min-width: 400px;
+    color: white;
+}
+
+.text4 h2{
+    width: 95%;
+    font-size: 2.4rem;
+    padding: 40px 40px 20px 20px;
+}
+
+.text4 p{
+    margin: 25px 20px;
+    line-height: 2rem;
+    font-size: 1.1em;
+    color: rgb(175, 175, 175);
 }
