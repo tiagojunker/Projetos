@@ -11,3 +11,5 @@ O Site clone <a href="https://tiagojunker.github.io/Projetos/pic-pay-projeto/ind
 de elementos com flexbox.
 
 Site criado simulando um <a href="https://tiagojunker.github.io/Projetos/eComerce/index.html" target="_blank">e-Comerce</a> de Roupas e acessórios masculinos.
+
+O Site clone <a href="https://tiagojunker.github.io/Projetos/projeto-disney/index.html" target="_blank">Disney +</a> feito para testar nav-bar com posição fixa.
