@@ -159,11 +159,148 @@ header{
     text-decoration: underline;
 }
 
+.content3{
+    padding: 40px 20px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    background-color: #f3f2f0;
+}
 
+.text3{
+    width: 40%;
+    min-width: 350px;
+    margin: 3%;
+}
 
+.text3 h2{
+    color: #0366c3;
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
 
+.text3 p{
+    color: #616160;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
 
+.side-img3{
+    max-width: 50%;
+    min-width: 350px;
+    margin: 2%;
+    align-self: flex-start;
+    text-align: center;
+}
 
+.side-img3 img{
+    width: 70%;
+    min-width: 350px;
+}
+
+.content4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+.content4 .conjunt1{
+    max-width: 40%;
+    min-width: 350px;
+}
+
+.conjunt1 h2{
+    color: #000000;
+    font-weight: 300;
+    font-size: 2.7rem;
+    margin: 45px 0px;
+
+}
+
+.conjunt1 button{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0.5px solid #616160;
+    background-color: #38383800;
+    color: #616160;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.conjunt1 button:hover{
+    text-decoration: underline;
+    background-color: #38383838;
+}
+
+.content4 .conjunt1 img{
+    width: 60%;
+    text-align: center;
+    
+}
+
+.content4 .conjunt2{
+    max-width: 40%;
+    min-width: 350px;
+}
+
+.conjunt2 h2{
+    color: #000000;
+    font-weight: 300;
+    font-size: 2.7rem;
+    margin: 45px 0px;
+    max-width: 400px;
+    min-width: 350px;
+
+}
+
+.content4 .conjunt2 img{
+    width: 60%;
+}
+
+.section-img{
+    height: 700px;
+    background-image: url("imagens/br.linkedin.com_\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+}
+
+.content5{
+    padding: 60px 0;
+    margin: 0% 8%;
+}
+
+.content5 h1{
+    font-weight: 1.2;
+    font-size: 3.5em;
+    min-width: 300px;
+    color: #181818;
+}
+
+.content5 button{
+    padding: 15px 20px;
+    background-color: #0366c3;
+    color: white;
+    border: 0;
+    margin-top: 40px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.content5 button:hover{
+    position: relative;
+    background-color: #004585;
+    text-decoration: underline;
+    border: 0;
+}
 
 
 
