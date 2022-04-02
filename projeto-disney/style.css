@@ -28,6 +28,7 @@ header div{
 
 header > div > button{
     background-color: #081027;
+    flex-wrap: nowrap;
     padding: 15px 18px;
     color: white;
     border: 0;
@@ -140,13 +141,11 @@ main{
 
 .img2{
     width: 45%;
-    min-width: 350px;
     margin-bottom: 30px;
 }
 
 .img2 img{ 
     width: 100%;
-    min-width: 350px;
 }
 
 .text2{
@@ -178,13 +177,11 @@ main{
 
 .img3{
     width: 45%;
-    min-width: 410px;
     margin-bottom: 30px;
 }
 
 .img3 img{ 
     width: 100%;
-    min-width: 350px;
 }
 
 .text3{
@@ -235,13 +232,11 @@ main{
 
 .img4{
     width: 45%;
-    min-width: 390px;
     margin-bottom: 30px;
 }
 
 .img4 img{ 
     width: 98%;
-    min-width: 350px;
 }
 
 .text4{
@@ -283,7 +278,6 @@ footer h1{
 }
 
 .icone{
-    min-width: 280px;
     text-align: center;
     line-height: 2.3rem;
     font-size: 1.5rem;
@@ -305,7 +299,6 @@ footer h1{
 
 .icone img{
     max-width: 320px;
-    min-width: 100px;
 }
 .rdp{
     text-align: center;
@@ -333,4 +326,56 @@ footer h1{
 .rdp p{
     margin-top: 10px;
     cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    header{
+        flex-wrap: nowrap;
+    }
+
+    header img{    
+        width: 10%;
+    }
+    
+    header div{
+        margin-right: 7vw;
+    }
+    
+    header > div > button{
+        background-color: #081027;
+        padding: 12px 12px;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        font-size: 100% ;
+    }
+
+    .btn-menu{
+        margin: 0;
+        padding-right: 5px ;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    
+    .assine{
+        background-color: #0063e5;
+        margin-right: 5px;
+        transition: 0.3s;
+    }
+    
+    .assine:hover{
+        background-color: #026df8;
+    }
+    
+    .entrar{
+        background-color: transparent;
+        box-shadow: inset 0 0 0 1px white;
+        transition: 0.3s;
+    }
+    
+    .entrar:hover{
+        background-color: white;
+        color: #081027;
+    }
 }
