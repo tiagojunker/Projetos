@@ -7,22 +7,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header, nav{
     display: flex;
     flex-wrap: wrap;
-    min-height: 10vh;
+    min-height: 11vh;
+    width: 100%;
     background-color: #5a2d82;
     justify-content: space-around;
-    align-items: center
+    align-items: center;
 }
 
-header > .img-header{    
+header > nav > .img-header{    
     max-height: 8vh;
     min-height: 8vh;
-    padding: 0 80px;
+    margin-top: 20px;
 }
 
-header > .nav-bar{
+header > nav > .nav-bar{
     display: flex;
     flex-wrap: wrap;
     list-style: none;      
@@ -32,7 +33,7 @@ header > .nav-bar{
     margin-top: 10px;
 }
 
-header li{
+header li, header .bag{
     flex-wrap: wrap;
     padding: 0px 10px;
     font-weight: 600;
@@ -41,7 +42,7 @@ header li{
     position: relative;
 }
 
-header li:before{
+header li::before, header .bag::before{
     content: ' ';
     position: absolute;
     bottom: 0;
@@ -52,9 +53,19 @@ header li:before{
     transition: all 1s ease;
 }
 
+.bag{
+    padding: 0;
+}
+
+
 header li:hover:before{
    width: 100%;
 }
+
+header .bag:hover:before{
+    width: 0;
+}
+
 
 header img{
     margin-left: 20px;
@@ -360,4 +371,98 @@ footer{
     background-color: Black;
     color: white;
     padding: 0px 0px 20px 20px;
+}
+
+.check {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    display: none;
+    transition: 1s;
+}
+
+li:hover, .check:hover {
+    cursor: pointer;
+}
+
+.check:focus~ul {
+    height: 260px;
+    transition: 1s;
+}
+
+@media (max-width: 765px) {
+
+   
+    ul {
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+        transition: 1s;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    .check {
+        display: flex;
+        margin-top: 15px;
+    }
+
+    header li:before{
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background-color: rgba(238, 238, 238, 0);
+        transition: all 1s ease;
+    }
+    
+    header li:hover:before{
+       width: 100vw;
+    }
+
+    header li:hover{
+        color: #d6a7ff;
+    }
+
+    header{
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        width: 95vw;
+        justify-content: space-between;
+    }
+
+
+    li, ul {
+        width: 100vw;
+    }
+
+    .bag{
+        position: relative;
+        right: 10px;
+    }
+
+    li:hover, .check:hover {
+        cursor: pointer;
+        background-color: #16161600;
+    }
 }
