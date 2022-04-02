@@ -13,3 +13,5 @@ de elementos com flexbox.
 Site criado simulando um <a href="https://tiagojunker.github.io/Projetos/eComerce/index.html" target="_blank">e-Comerce</a> de Roupas e acessórios masculinos.
 
 O Site clone <a href="https://tiagojunker.github.io/Projetos/projeto-disney/index.html" target="_blank">Disney +</a> feito para testar nav-bar com posição fixa.
+
+O Site clone <a href="https://tiagojunker.github.io/Projetos/linkedin/index.html" target="_blank">Linkedin</a>.
