@@ -11,49 +11,57 @@ a{
     color: white;
 }
 
-header{
-    background-color: #21c25e;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px;
-    text-align: center;
+li{
+    list-style: none;
 }
+
 
 .menu-bar{
     display: flex;
+    justify-content: space-around;
     align-items: center;
+    background-color: #21c25e;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
 }
 
 .logo{
     cursor: pointer;
     margin-left: 25px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;       
-    margin-top: 5px;
-    margin-bottom: 5px;
-   
+    justify-content: center;   
+    align-items: center;    
+    margin-top: 5px; 
 }
 
 .item{
-    padding: 5px 25px;
+    padding: 5px 15px;
     color: white;
     transition: 0.6s;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .item:hover{
-    color: #ffffff5d;    
+    color: #505050ab; 
+    background-color: #39ee7f;   
 }
 
-button.btn1{    
+.btn1{    
     background-color: rgb(16, 111, 255);
     border: 0;
     border-radius: 25px;
@@ -62,9 +70,12 @@ button.btn1{
     font-weight: 600;
     font-size: 1.0rem;
     cursor: pointer;  
-    margin-left: 10px; 
-    margin-top: 5px;
-    margin-bottom: 5px;   
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.btn1:hover{
+    background-color: rgb(0, 72, 180);
 }
 
 main{
@@ -79,6 +90,11 @@ main{
     display: flex;    
     flex-wrap: wrap; 
     justify-content: space-around;    
+}
+
+.section1 img{
+    max-width: 45vw;
+    min-width: 300px;
 }
 
 
@@ -110,7 +126,7 @@ main{
     text-align: justify;
 }
 
-button.btn2{    
+.btn2{    
     background-color: rgb(16, 111, 255);    
     border: 0;
     border-radius: 10px;
@@ -121,6 +137,11 @@ button.btn2{
     cursor: pointer; 
     margin-left: 10px; 
     margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.btn2:hover{
+    background-color: rgb(0, 72, 180);
 }
 
 footer{
@@ -134,4 +155,68 @@ footer p, a{
     text-align: center;
     text-decoration: none;
     color: white;
+}
+
+.check {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+li:hover, .check:hover {
+    cursor: pointer;
+}
+
+.check:focus~ul {
+    height: 260px;
+}
+
+
+@media (max-width: 850px) {
+
+    
+    nav, ul {
+        flex-direction: column;
+        overflow: hidden;
+        transition: 1s;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .item{
+        padding: 5px 0px;
+        margin: 5px 0;
+        width: 100vw;
+    }
+
+    .btn1 {
+        padding: 10px 25px;
+    }
+
+    .check {
+        display: flex;
+    }
+
+    li, ul {
+        width: 100%;
+    }
+
+    li:hover, .check:hover {
+        cursor: pointer;
+        background-color: #16161600;
+    }
 }

@@ -16,7 +16,6 @@ header{
 
 .logo img{
     max-width: 140px;
-    min-width: 90px;
     margin-top: 5px;
 }
 
@@ -33,7 +32,6 @@ header{
     font-weight: 600;
     padding: 8px 10px;
     text-align: center;
-    min-width: 150px;
 }
 
 .info p:hover{
@@ -61,20 +59,20 @@ header{
     padding: 3% 5%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .text1{
     align-self: flex-start;
     max-width: 47%;
-    min-width: 400px;
 }
 
 .text1 h1{
     text-align: left;
     font-weight: 1.2;
     font-size: 3.5em;
-    min-width: 300px;
     color: #8f5849;
 }
 
@@ -82,7 +80,7 @@ header{
     display: flex;
     flex-direction: column;
     max-width: 60%;
-    min-width: 400px;
+    min-width: 200px;
     padding: 40px 0px;
 }
 
@@ -101,7 +99,6 @@ header{
 
 .side-img1{
     max-width: 52%;
-    min-width: 420px;
     overflow: hidden;
 }
 
@@ -114,8 +111,8 @@ header{
 
 .content2{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
     padding: 20px 20px 50px 20px;
     background-color: #f3f2f0;
 }
@@ -124,6 +121,7 @@ header{
     max-width: 34%;
     margin: 3%;
     text-align: left;
+    align-self: center;
     font-weight: 1.2;
     font-size: 3em;
     min-width: 350px
@@ -173,7 +171,6 @@ header{
 
 .text3{
     width: 40%;
-    min-width: 350px;
     margin: 3%;
 }
 
@@ -191,16 +188,14 @@ header{
 }
 
 .side-img3{
-    max-width: 50%;
-    min-width: 350px;
+    max-width: 60%;
     margin: 2%;
-    align-self: flex-start;
+    align-self: center;
     text-align: center;
 }
 
 .side-img3 img{
     width: 70%;
-    min-width: 350px;
 }
 
 .content4{
@@ -304,6 +299,42 @@ header{
     border: 0;
 }
 
+@media (max-width: 700px) {
+    
+    .content1, .content2, .content3, .content4, .content5 {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .text1{
+        align-self: flex-start;
+        max-width:100%;
+    }
+
+    .side-img1{
+        max-width: 90%;
+        position: relative;
+        right: 50px;
+        overflow: hidden;
+    }
+
+    .side-img3{
+        max-width: 90%;
+    }
+
+    .text3{
+        width: 90%;
+        margin: 3%;
+    }
+
+    .content4 > .conjunt1, .conjunt2{
+        width: 90%;
+    }
+    
+    .content4 > .conjunt1, .conjunt2 {
+        text-align: center;
+    }
+}
 
 
 
