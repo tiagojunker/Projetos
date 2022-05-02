@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fontPrincipal--: 'Roboto';
+}
+body{
+    background-color: white;
+    font-family: var(--fontPrincipal--), 'sans-serif';
+    text-align: center;
+}
+
+header{
+    background-color: #145c3b;
+    color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.name{
+    background-color: #37B97C;
+    max-width: 400px;
+    width: 100%;
+    align-self: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.692);
+    border: 1px solid rgba(0, 0, 0, 0.541);
+}
+
+.conteudo1, .conteudo2, .conteudo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;align-self: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 194);
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+}
+
+.row{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 194);
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.square{
+    width: 28px;
+    background-color: white;
+    border: .5px solid black;
+    margin: 1px;
+}
