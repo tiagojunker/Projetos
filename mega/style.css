@@ -49,7 +49,9 @@ main{
 
 .init input{
     padding: 5px;
-    margin: 5px;
+    margin-bottom: 15px;
+    max-width: 200px;
+    width: 100%;
     border-radius: 5px;
     outline: 0;
     border: 0;
@@ -59,8 +61,15 @@ main{
 .inputs{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+#ipt1, #ipt2{
+    display: block;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
 }
 
 label{
@@ -69,7 +78,6 @@ label{
     font-size: 12pt;
     color: #145c3b;
     font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .init button{
@@ -139,4 +147,14 @@ label{
 .mark{
     background: rgb(33, 10, 75);
     color: white;
+}
+
+
+@media (max-width: 1000px) {
+    #ipt1, #ipt2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

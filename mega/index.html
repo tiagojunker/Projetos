@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Gerador de Números <strong>Mega-Sena</strong></h1>
+        <h1>Gerador de Números<br><strong>Mega-Sena</strong></h1>
         <p>Será que hoje é seu dia de sorte?</p>
     </header>
     <main>
@@ -17,13 +17,13 @@
             <p>Para aposta simples digite 6 e para um desdobramento
             digite 7 a 15 numero!</p>
             <div class="inputs">
-                <div>
-                    <input type="text" id="qtd" placeholder="Quantos numeros?">
+                <div id="ipt1">
                     <label for="qtd">Quantidade de numeros para cada Jogo</label>
+                    <input type="text" id="qtd" placeholder="Quantos numeros?">
                 </div>
-                <div>
-                    <input type="text" id="jogos" placeholder="1, 2 ou 3 jogos?">
+                <div id="ipt2">
                     <label for="jogos">Numero de jogos! (1, 2 ou 3)</label>
+                    <input type="text" id="jogos" placeholder="1, 2 ou 3 jogos?">
                 </div>
             </div>
             <button onclick="gerar()">Gerar Numeros</button>
