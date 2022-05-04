@@ -30,6 +30,10 @@ main{
 }
 
 .init{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
 
@@ -39,7 +43,9 @@ main{
     font-size: 18pt;
     color: #145c3b;
     font-weight: 600;
+    margin-bottom: 20px;
 }
+
 
 .init input{
     padding: 5px;
@@ -50,8 +56,25 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+label{
+    max-width: 600px;
+    width: 100%;
+    font-size: 12pt;
+    color: #145c3b;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
 .init button{
-    padding: 5px 10px;
+    margin-top: 10px;
+    padding: 10px 45px;
     border-radius: 5px;
     border: 1px;
     background-color: #145c3b;
