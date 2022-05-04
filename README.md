@@ -15,3 +15,6 @@ Site criado simulando um <a href="https://tiagojunker.github.io/Projetos/eComerc
 O Site clone <a href="https://tiagojunker.github.io/Projetos/projeto-disney/index.html" target="_blank">Disney +</a> feito para testar nav-bar com posição fixa.
 
 O Site clone <a href="https://tiagojunker.github.io/Projetos/linkedin/index.html" target="_blank">Linkedin</a>.
+
+O Gerador de Numeros da Mega é um projeto feito com HTML, CSS e JavaScript que gera numeros aleatórios entre 1 e 60<br>
+não repetidos e preenche para o usuário um jogo com estes numeros. <a href="https://tiagojunker.github.io/Projetos/linkedin/index.html" target="_blank">Gerador de números Mega-Sena</a>.
