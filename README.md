@@ -16,5 +16,5 @@ O Site clone <a href="https://tiagojunker.github.io/Projetos/projeto-disney/inde
 
 O Site clone <a href="https://tiagojunker.github.io/Projetos/linkedin/index.html" target="_blank">Linkedin</a>.
 
-O Gerador de Numeros da Mega é um projeto feito com HTML, CSS e JavaScript que gera numeros aleatórios entre 1 e 60<br>
+O Gerador de Numeros da Mega é um projeto feito com HTML, CSS e JavaScript que gera numeros aleatórios entre 1 e 60
 não repetidos e preenche para o usuário um jogo com estes numeros. <a href="https://tiagojunker.github.io/Projetos/mega/index.html" target="_blank">Gerador de números Mega-Sena</a>.
