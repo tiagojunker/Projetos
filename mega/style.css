@@ -10,7 +10,7 @@
     --fontPrincipal--: 'Roboto';
 }
 body{
-    background-color: white;
+    background-color: #acacac;
     font-family: var(--fontPrincipal--), 'sans-serif';
     text-align: center;
 }
@@ -20,6 +20,48 @@ header{
     color: white;
     padding: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.363);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.init{
+    margin: 20px;
+}
+
+.init p{
+    max-width: 600px;
+    width: 100%;
+    font-size: 18pt;
+    color: #145c3b;
+    font-weight: 600;
+}
+
+.init input{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.init button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: #145c3b;
+    color: white;
+    transition: .5s;
+}
+
+.init button:hover{
+    background-color: #1b8354;
+    color: yellow;
 }
 
 .container{
@@ -69,4 +111,9 @@ header{
     background-color: white;
     border: .5px solid black;
     margin: 1px;
+}
+
+.mark{
+    background: rgb(33, 10, 75);
+    color: white;
 }

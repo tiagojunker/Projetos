@@ -13,13 +13,19 @@
         <p>Será que hoje é seu dia de sorte?</p>
     </header>
     <main>
+        <div class="init">
+            <p>Para aposta simples digite 6 e para um desdobramento
+            digite 7 a 15 numero!</p>
+            <input type="text" id="qtd" placeholder="Quantos numeros?">
+            <button onclick="gerar()">Gerar Numeros</button>
+        </div>
         <div class="container">
             <div class="name">
                 <h2>MEGA-SENA</h2>
             </div>
             <div class="conteudo1">
                 <div class="row">
-                    <div class="square" id="1">1</div>
+                    <div class="square mark" id="1">1</div>
                     <div class="square" id="2">2</div>
                     <div class="square" id="3">3</div>
                     <div class="square" id="4">4</div>
@@ -94,151 +100,151 @@
 
             <div class="conteudo2">
                 <div class="row">
-                    <div class="square" id="1">1</div>
-                    <div class="square" id="2">2</div>
-                    <div class="square" id="3">3</div>
-                    <div class="square" id="4">4</div>
-                    <div class="square" id="5">5</div>
-                    <div class="square" id="6">6</div>
-                    <div class="square" id="7">7</div>
-                    <div class="square" id="8">8</div>
-                    <div class="square" id="9">9</div>
-                    <div class="square" id="10">10</div>
+                    <div class="square" id="1a">1</div>
+                    <div class="square" id="2a">2</div>
+                    <div class="square" id="3a">3</div>
+                    <div class="square" id="4a">4</div>
+                    <div class="square" id="5a">5</div>
+                    <div class="square" id="6a">6</div>
+                    <div class="square" id="7a">7</div>
+                    <div class="square" id="8a">8</div>
+                    <div class="square" id="9a">9</div>
+                    <div class="square" id="10a">10</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="11">11</div>
-                    <div class="square" id="12">12</div>
-                    <div class="square" id="13">13</div>
-                    <div class="square" id="14">14</div>
-                    <div class="square" id="15">15</div>
-                    <div class="square" id="16">16</div>
-                    <div class="square" id="17">17</div>
-                    <div class="square" id="18">18</div>
-                    <div class="square" id="19">19</div>
-                    <div class="square" id="20">20</div>
+                    <div class="square" id="11a">11</div>
+                    <div class="square" id="12a">12</div>
+                    <div class="square" id="13a">13</div>
+                    <div class="square" id="14a">14</div>
+                    <div class="square" id="15a">15</div>
+                    <div class="square" id="16a">16</div>
+                    <div class="square" id="17a">17</div>
+                    <div class="square" id="18a">18</div>
+                    <div class="square" id="19a">19</div>
+                    <div class="square" id="20a">20</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="21">21</div>
-                    <div class="square" id="22">22</div>
-                    <div class="square" id="23">23</div>
-                    <div class="square" id="24">24</div>
-                    <div class="square" id="25">25</div>
-                    <div class="square" id="26">26</div>
-                    <div class="square" id="27">27</div>
-                    <div class="square" id="28">28</div>
-                    <div class="square" id="29">29</div>
-                    <div class="square" id="30">30</div>
+                    <div class="square" id="21a">21</div>
+                    <div class="square" id="22a">22</div>
+                    <div class="square" id="23a">23</div>
+                    <div class="square" id="24a">24</div>
+                    <div class="square" id="25a">25</div>
+                    <div class="square" id="26a">26</div>
+                    <div class="square" id="27a">27</div>
+                    <div class="square" id="28a">28</div>
+                    <div class="square" id="29a">29</div>
+                    <div class="square" id="30a">30</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="31">31</div>
-                    <div class="square" id="32">32</div>
-                    <div class="square" id="33">33</div>
-                    <div class="square" id="34">34</div>
-                    <div class="square" id="35">35</div>
-                    <div class="square" id="36">36</div>
-                    <div class="square" id="37">37</div>
-                    <div class="square" id="38">38</div>
-                    <div class="square" id="39">39</div>
-                    <div class="square" id="40">40</div>
+                    <div class="square" id="31a">31</div>
+                    <div class="square" id="32a">32</div>
+                    <div class="square" id="33a">33</div>
+                    <div class="square" id="34a">34</div>
+                    <div class="square" id="35a">35</div>
+                    <div class="square" id="36a">36</div>
+                    <div class="square" id="37a">37</div>
+                    <div class="square" id="38a">38</div>
+                    <div class="square" id="39a">39</div>
+                    <div class="square" id="40a">40</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="41">41</div>
-                    <div class="square" id="42">42</div>
-                    <div class="square" id="43">43</div>
-                    <div class="square" id="44">44</div>
-                    <div class="square" id="45">45</div>
-                    <div class="square" id="46">46</div>
-                    <div class="square" id="47">47</div>
-                    <div class="square" id="48">48</div>
-                    <div class="square" id="49">49</div>
-                    <div class="square" id="50">50</div>
+                    <div class="square" id="41a">41</div>
+                    <div class="square" id="42a">42</div>
+                    <div class="square" id="43a">43</div>
+                    <div class="square" id="44a">44</div>
+                    <div class="square" id="45a">45</div>
+                    <div class="square" id="46a">46</div>
+                    <div class="square" id="47a">47</div>
+                    <div class="square" id="48a">48</div>
+                    <div class="square" id="49a">49</div>
+                    <div class="square" id="50a">50</div>
                 </div>
                 <div class="row">
-                    <div class='square' id="51">51</div>
-                    <div class='square' id="52">52</div>
-                    <div class='square' id="53">53</div>
-                    <div class='square' id="54">54</div>
-                    <div class='square' id="55">55</div>
-                    <div class='square' id="56">56</div>
-                    <div class='square' id="57">57</div>
-                    <div class='square' id="58">58</div>
-                    <div class='square' id="59">59</div>
-                    <div class='square' id="60">60</div>
+                    <div class='square' id="51a">51</div>
+                    <div class='square' id="52a">52</div>
+                    <div class='square' id="53a">53</div>
+                    <div class='square' id="54a">54</div>
+                    <div class='square' id="55a">55</div>
+                    <div class='square' id="56a">56</div>
+                    <div class='square' id="57a">57</div>
+                    <div class='square' id="58a">58</div>
+                    <div class='square' id="59a">59</div>
+                    <div class='square' id="60a">60</div>
                 </div>
             </div>
 
             <div class="conteudo3">
                 <div class="row">
-                    <div class="square" id="1">1</div>
-                    <div class="square" id="2">2</div>
-                    <div class="square" id="3">3</div>
-                    <div class="square" id="4">4</div>
-                    <div class="square" id="5">5</div>
-                    <div class="square" id="6">6</div>
-                    <div class="square" id="7">7</div>
-                    <div class="square" id="8">8</div>
-                    <div class="square" id="9">9</div>
-                    <div class="square" id="10">10</div>
+                    <div class="square" id="1b">1</div>
+                    <div class="square" id="2b">2</div>
+                    <div class="square" id="3b">3</div>
+                    <div class="square" id="4b">4</div>
+                    <div class="square" id="5b">5</div>
+                    <div class="square" id="6b">6</div>
+                    <div class="square" id="7b">7</div>
+                    <div class="square" id="8b">8</div>
+                    <div class="square" id="9b">9</div>
+                    <div class="square" id="10b">10</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="11">11</div>
-                    <div class="square" id="12">12</div>
-                    <div class="square" id="13">13</div>
-                    <div class="square" id="14">14</div>
-                    <div class="square" id="15">15</div>
-                    <div class="square" id="16">16</div>
-                    <div class="square" id="17">17</div>
-                    <div class="square" id="18">18</div>
-                    <div class="square" id="19">19</div>
-                    <div class="square" id="20">20</div>
+                    <div class="square" id="11b">11</div>
+                    <div class="square" id="12b">12</div>
+                    <div class="square" id="13b">13</div>
+                    <div class="square" id="14b">14</div>
+                    <div class="square" id="15b">15</div>
+                    <div class="square" id="16b">16</div>
+                    <div class="square" id="17b">17</div>
+                    <div class="square" id="18b">18</div>
+                    <div class="square" id="19b">19</div>
+                    <div class="square" id="20b">20</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="21">21</div>
-                    <div class="square" id="22">22</div>
-                    <div class="square" id="23">23</div>
-                    <div class="square" id="24">24</div>
-                    <div class="square" id="25">25</div>
-                    <div class="square" id="26">26</div>
-                    <div class="square" id="27">27</div>
-                    <div class="square" id="28">28</div>
-                    <div class="square" id="29">29</div>
-                    <div class="square" id="30">30</div>
+                    <div class="square" id="21b">21</div>
+                    <div class="square" id="22b">22</div>
+                    <div class="square" id="23b">23</div>
+                    <div class="square" id="24b">24</div>
+                    <div class="square" id="25b">25</div>
+                    <div class="square" id="26b">26</div>
+                    <div class="square" id="27b">27</div>
+                    <div class="square" id="28b">28</div>
+                    <div class="square" id="29b">29</div>
+                    <div class="square" id="30b">30</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="31">31</div>
-                    <div class="square" id="32">32</div>
-                    <div class="square" id="33">33</div>
-                    <div class="square" id="34">34</div>
-                    <div class="square" id="35">35</div>
-                    <div class="square" id="36">36</div>
-                    <div class="square" id="37">37</div>
-                    <div class="square" id="38">38</div>
-                    <div class="square" id="39">39</div>
-                    <div class="square" id="40">40</div>
+                    <div class="square" id="31b">31</div>
+                    <div class="square" id="32b">32</div>
+                    <div class="square" id="33b">33</div>
+                    <div class="square" id="34b">34</div>
+                    <div class="square" id="35b">35</div>
+                    <div class="square" id="36b">36</div>
+                    <div class="square" id="37b">37</div>
+                    <div class="square" id="38b">38</div>
+                    <div class="square" id="39b">39</div>
+                    <div class="square" id="40b">40</div>
                 </div>
                 <div class="row">
-                    <div class="square" id="41">41</div>
-                    <div class="square" id="42">42</div>
-                    <div class="square" id="43">43</div>
-                    <div class="square" id="44">44</div>
-                    <div class="square" id="45">45</div>
-                    <div class="square" id="46">46</div>
-                    <div class="square" id="47">47</div>
-                    <div class="square" id="48">48</div>
-                    <div class="square" id="49">49</div>
-                    <div class="square" id="50">50</div>
+                    <div class="square" id="41b">41</div>
+                    <div class="square" id="42b">42</div>
+                    <div class="square" id="43b">43</div>
+                    <div class="square" id="44b">44</div>
+                    <div class="square" id="45b">45</div>
+                    <div class="square" id="46b">46</div>
+                    <div class="square" id="47b">47</div>
+                    <div class="square" id="48b">48</div>
+                    <div class="square" id="49b">49</div>
+                    <div class="square" id="50b">50</div>
                 </div>
                 <div class="row">
-                    <div class='square' id="51">51</div>
-                    <div class='square' id="52">52</div>
-                    <div class='square' id="53">53</div>
-                    <div class='square' id="54">54</div>
-                    <div class='square' id="55">55</div>
-                    <div class='square' id="56">56</div>
-                    <div class='square' id="57">57</div>
-                    <div class='square' id="58">58</div>
-                    <div class='square' id="59">59</div>
-                    <div class='square' id="60">60</div>
+                    <div class='square' id="51b">51</div>
+                    <div class='square' id="52b">52</div>
+                    <div class='square' id="53b">53</div>
+                    <div class='square' id="54b">54</div>
+                    <div class='square' id="55b">55</div>
+                    <div class='square' id="56b">56</div>
+                    <div class='square' id="57b">57</div>
+                    <div class='square' id="58b">58</div>
+                    <div class='square' id="59b">59</div>
+                    <div class='square' id="60b">60</div>
                 </div>
             </div>
         </div>
