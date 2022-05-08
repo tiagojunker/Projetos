@@ -91,7 +91,7 @@ button:focus~ul {
 
 .msg1{
     max-width: 800px;
-    width: 100%;
+    width: 80vw;
     margin: 0 10px;
     display: flex;
     justify-content: flex-start;
@@ -103,12 +103,14 @@ button:focus~ul {
     top: 55vh;
     left: 5.5vw;
     color: rgb(224, 224, 0);
-    font-size: 26pt;
+    font-size: 200%;
 }
 
 h2 > span{
     text-decoration: underline;
 }
+
+/* Inicio da section 2*/
 
 #sabores{
     background-color: rgb(104, 104, 104);
@@ -120,7 +122,7 @@ h2 > span{
     position: relative;
     left: 6vw;
     width: 93%;
-    font-size: 26pt;
+    font-size: 200%;
     color: rgb(224, 224, 0);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.719);
     text-align: center;
@@ -128,7 +130,6 @@ h2 > span{
 }
 
 #sabor{
-    height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -136,6 +137,8 @@ h2 > span{
     justify-content: space-around;
     align-items: center;
     background-color: rgb(104, 104, 104);
+    padding-bottom: 50px;
+    margin-top: 5px;
 }
 
 .sabor{
@@ -164,6 +167,43 @@ h2 > span{
     align-self: center;
 }
 
+/* Inicio da section 3*/
+
+#quem-somos{
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+#quem-somos h2{
+    margin: 0;
+    padding: 10px 0;
+    font-size: 200%;
+    color: rgb(224, 224, 0);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.719);
+    text-align: center;
+}
+
+#quem-somos p{
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18pt;
+}
+.imgs{
+    padding-top: 50px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs > img {
+    max-width: 40vw;
+    width: 100%;
+}
+
+
 
 
 @media (max-width: 980px) {
@@ -189,7 +229,7 @@ h2 > span{
         margin: 10px;
     }
 
-    h2{
+    .msg1 > h2{
         color: white;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.815);
     }
@@ -214,6 +254,16 @@ h2 > span{
         width: 6px;
         margin-right: 20px;
         align-self: flex-end;
+    }
+
+    .imgs{
+        flex-direction: column;
+    }
+
+    .imgs img{
+        max-width: 90vw;
+        width: 100%;
+        margin: 20px 0;
     }
 
 }
