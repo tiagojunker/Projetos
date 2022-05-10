@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: "Segoe UI", "Sans-serif";
+    background-color: #4d4d4d;
 }
 
 ul {
@@ -54,8 +55,31 @@ h1 {
     padding: 10px;
 }
 
+.especial{
+    min-width: 40px;
+    width: 25px;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+}
+
+
+#qtd{
+    display: none;
+    background-color: #4d4d4d;
+    padding: 2px 8px;
+    border-radius: 50%;
+    color: rgb(248, 223, 0);
+    font-weight: 600;
+}
+
 #especial{
     display: none;
+}
+
+.especial img{
+    width: 20px;
+    height: 25px;
 }
 
 button {
@@ -69,13 +93,13 @@ button {
     display: none;
 }
 
-li:hover, h1:hover, button:hover {
+h1:hover, button:hover {
     cursor: pointer;
     background-color: #292929bb;
 }
 
 button:focus~ul {
-    height: 240px;
+    height: 320px;
 }
 
 /* Inicio da section 1*/
@@ -103,7 +127,7 @@ button:focus~ul {
     top: 55vh;
     left: 5.5vw;
     color: rgb(224, 224, 0);
-    font-size: 200%;
+    font-size: 250%;
 }
 
 h2 > span{
@@ -119,14 +143,11 @@ h2 > span{
 #sabores > h2{
     margin: 0;
     padding: 10px 0;
-    position: relative;
-    left: 6vw;
-    width: 93%;
+    width: 100%;
     font-size: 200%;
     color: rgb(224, 224, 0);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.719);
     text-align: center;
-
 }
 
 #sabor{
@@ -151,6 +172,8 @@ h2 > span{
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.596);
+    margin-top: 10px;
+    margin-bottom: 20px ;
 }
 
 .sabor > img{
@@ -203,12 +226,80 @@ h2 > span{
     width: 100%;
 }
 
+.btnAdd{
+    max-width: 20px;
+    width: 100%;
+    padding: 0 15px;
+    padding-bottom: 3px;
+    background-color: #4d4d4d;
+    color: white;
+    border: 2px solid ;
+    font-size: 18pt;
+    border-radius: 10px;
+    margin-right: 5px;
+    transition: .5s;
+    margin: 0;
+    align-self: center;
+    cursor: pointer;
+}
 
+.btnAdd:hover{
+    background-color: #4d4d4d;
+    color: yellow;
+    border: 2px solid yellow;
+}
 
+.conteudo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Inicio da section 4*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    background-color: #4d4d4d;
+}
+
+.conteudo1{
+    max-width: 40vw;
+    width: 100%;
+    min-width: 400px;
+    
+}
+
+.conteudo1 h3{
+    font-size: 250%;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.719);
+}
+
+.conteudo1 p{
+    font-size: 180%;
+    color: white;
+    min-width: 400px;
+}
+
+.conteudo2{
+    max-width: 40vw;
+    width: 100%;
+    min-width: 400px;
+}
+
+.conteudo2 img{
+    width: 100%;
+    border-radius: 10px;
+}
 
 @media (max-width: 980px) {
-
-    
 
     nav, ul {
         flex-direction: column;
@@ -247,6 +338,12 @@ h2 > span{
         background-color: #16161600;
     }
 
+    .especial{
+        align-self: center;
+        position: relative;
+        left: 20px;
+    } 
+
     #especial{
         display: block;
         font-size: 20pt;
@@ -267,3 +364,6 @@ h2 > span{
     }
 
 }
+
+/*Criados com JavaScript*/
+
