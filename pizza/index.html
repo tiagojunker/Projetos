@@ -16,7 +16,8 @@
             <li><a href="#sabores">Sabores</a></li>
             <li><a href="#">Monte a Sua</a></li>
             <li><a href="#quem-somos">Quem somos</a></li>
-            <li><a href="#">Contatos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+            <li class="especial"><img src="img/carrinho.png" alt=""><p id="qtd"></p></li>
             <li id="especial">X</li>
         </ul>
     </nav>
@@ -30,46 +31,64 @@
         <div id="sabor">
             <div class="sabor" id="1">
                 <img src="" style="background-image: url(img/bacon.jpg);">
-                <p>
-                    <strong>BACON:</strong><br>
-                    Molho de tomate, mussarela, bacon, azeitonas pretas e orégano.
-                </p>
+                <div class="conteudo">
+                    <p>
+                        <strong>BACON:</strong><br>
+                        Molho de tomate, mussarela, bacon, azeitonas pretas e orégano.
+                    </p>
+                    <h3 class="btnAdd" id="bacon" onclick="adicionarPizza(this)">+</h3>
+                </div>
             </div>
-            <div class="sabor calabresa" id="2">
+            <div class="sabor" id="2">
                 <img src="" style="background-image: url(img/calabresa.jpg);">
-                <p>
-                    <strong>CALABRESA:</strong><br>
-                    Molho de tomate, mussarela, calabresa e orégano.
-                </p>
+                <div class="conteudo">
+                    <p>
+                        <strong>CALABRESA:</strong><br>
+                        Molho de tomate, mussarela, calabresa e orégano.
+                    </p>
+                    <h3 class="btnAdd" id="calabresa" onclick="adicionarPizza(this)">+</h3>
+                </div>
             </div>
             <div class="sabor" id="3">
                 <img src="" style="background-image: url(img/portuguesa.jpeg);">
-                <p>
-                    <strong>PORTUGUESA:</strong><br>
-                    Molho de tomate, mussarela, presunto, <br>ovo cozido, azeitonas pretas,
-                    calabresa, cebola, pimentão e orégano.
-                </p>
+                <div class="conteudo">
+                    <p>
+                        <strong>PORTUGUESA:</strong><br>
+                        Molho de tomate, mussarela, presunto, <br>ovo cozido,
+                        calabresa, pimentão e orégano.
+                    </p>
+                    <h3 class="btnAdd" id="portuguesa" onclick="adicionarPizza(this)">+</h3>
+                </div>
             </div>
             <div class="sabor" id="4">
                 <img src="" style="background-image: url(img/4\ queijos.jpg);">
-                <p>
-                    <strong>4 QUEIJOS:</strong><br>
-                    Molho de tomate, mussarela, parmesão, gorgonzola e brie.
-                </p>
+                <div class="conteudo">
+                    <p>
+                        <strong>4 QUEIJOS:</strong><br>
+                        Molho de tomate, mussarela, parmesão, gorgonzola e brie.
+                    </p>
+                    <h3 class="btnAdd" id="4queijos" onclick="adicionarPizza(this)">+</h3>
+                </div>
             </div>
             <div class="sabor" id="5">
                 <img src="" style="background-image: url(img/pepperoni.jpg);">
-                <p>
-                    <strong>PEPPERONI:</strong><br>
-                    Molho de tomate, alho, cebola, mussarela e salame italiano.
-                </p>
+                <div class="conteudo">
+                    <p>
+                        <strong>PEPPERONI:</strong><br>
+                        Molho de tomate, alho, cebola, mussarela e salame italiano.
+                    </p>
+                    <h3 class="btnAdd" id="pepperoni" onclick="adicionarPizza(this)">+</h3>
+                </div>
             </div>
             <div class="sabor" id="6">
                 <img src="" style="background-image: url(img/marguerita.jpg);">
-                <p>
-                    <strong>MARGUERITA:</strong><br>
-                    Molho de tomate, mussarela, manjericão e orégano.
-                </p>
+                <div class="conteudo">
+                    <p>
+                        <strong>MARGUERITA:</strong><br>
+                        Molho de tomate, mussarela, manjericão e orégano.
+                    </p>
+                    <h3 class="btnAdd" id="marguerita" onclick="adicionarPizza(this)">+</h3>
+                </div>
             </div>
         </div>
     </section>
@@ -84,6 +103,23 @@
         <div class="imgs">
             <img src="img/pizzaria externo.jpg" alt="Lado de Fora">
             <img src="img/cozinha.jpg" alt="Cozinha pizzaria">
+        </div>
+    </section>
+    <section id="contatos">
+        <div class="container">
+            <div class="conteudo1">
+                <h3 style="color: yellow;">Endereço</h3>
+                <p>Avenida sem casas, Rua dos bobos, Nº 0.<br>
+                Jd.sem plantas, Tel: (011)1515-1515 </p>
+                <br>
+                <p>
+                    Inta: @pizaplanetsp<br>
+                    Facebook: Pizza Planet Sp<br>
+                </p>
+            </div>
+            <div class="conteudo2">
+                <img src="img/mapa.webp" alt="">
+            </div>
         </div>
     </section>
 
