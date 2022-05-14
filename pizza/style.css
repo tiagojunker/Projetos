@@ -70,6 +70,9 @@ h1 {
     padding: 2px 8px;
     color: rgb(248, 223, 0);
     font-weight: 600;
+    cursor: pointer;
+    margin: 0;
+    border-radius: 50%;
 }
 
 #especial{
@@ -169,6 +172,7 @@ h2 > span{
     height: 150px;
     display: flex;
     background-color: #2c2c2c;
+    justify-content: space-between;
     margin: 5px;
     border-radius: 10px;
     overflow: hidden;
@@ -187,8 +191,7 @@ h2 > span{
 
 .sabor > p{
     color: white;
-    margin-left: 8px;
-    align-self: center;
+    align-self: left;
 }
 
 /* Inicio da section 3*/
@@ -228,26 +231,23 @@ h2 > span{
 }
 
 .btnAdd{
-    max-width: 20px;
+    max-width: 310px;
     width: 100%;
-    padding: 0 15px;
-    padding-bottom: 3px;
     background-color: #4d4d4d;
     color: white;
-    border: 2px solid ;
-    font-size: 18pt;
-    border-radius: 10px;
-    margin-right: 5px;
+    font-size: 12pt;
+    padding: 5px;
+    border-radius: 0 0 10px 0;
     transition: .5s;
     margin: 0;
-    align-self: center;
+    align-self: flex-end;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .btnAdd:hover{
     background-color: #4d4d4d;
     color: yellow;
-    border: 2px solid yellow;
 }
 
 .conteudo{
@@ -255,7 +255,7 @@ h2 > span{
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -278,13 +278,13 @@ h2 > span{
 }
 
 .conteudo1 h3{
-    font-size: 250%;
+    font-size: 180%;
     color: white;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.719);
 }
 
 .conteudo1 p{
-    font-size: 180%;
+    font-size: 120%;
     color: white;
     min-width: 400px;
 }
@@ -296,7 +296,7 @@ h2 > span{
 }
 
 .conteudo2 img{
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
 }
 
@@ -375,10 +375,10 @@ h2 > span{
 .container-carrinho{
     width: 200px;
     position: absolute;
-    top: 8vh;
+    top: 8.7vh;
     right: 5vw;
     color: white;
     background-color: #4d4d4d;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px 0 10px 10px;
 }

@@ -7,7 +7,7 @@ let mangueira = document.getElementById('6');
 let qtdpedido = document.getElementById('qtd');
 let carrinho = document.getElementById('carrinho');
 let navbar = document.getElementsByTagName('nav')[0];
-let ativar = 0
+let ativar = 0;
 
 let adicionadas = []
 
@@ -35,28 +35,60 @@ function mudarCarrinho() {     //Mostra quantidade de produtos no carrinho
 }
 
 function criarCarrinho() {
+    let container = document.createElement('div');
+
     if(ativar == 0) {
-        ativar ++
-        let container = document.createElement('div');
-        container.classList.toggle('container-carrinho');
+        ativar++
+        container.classList.add('container-carrinho');
+        container.id = 'container-carrinho';
         qtdpedido.appendChild(container);
+
+        for(let i of adicionadas) {
+            let containerex = document.createElement('div');
+            let sabor = document.createElement('p');
+            let x = document.createElement('p');
+
+    
+            x.id = `${i}del`;
+            containerex.id = `${i}c`;
+            x.onclick = function () {
+                let recuperarId = this.id;
+
+                recuperarId = recuperarId.split('');
+                
+                for(let i = 1; i <= 3; i++) {
+                    recuperarId.pop();
+                }
+
+                recuperarId = recuperarId.join('');
+                
+                container.removeChild((document.getElementById(`${recuperarId}c`)));
+                //filter ou slice;
+
+            }
+            containerex.style.display = 'flex';
+            containerex.style.justifyContent = 'space-between';
+            containerex.style.padding = '0 10px';
+
+            containerex.appendChild(sabor);
+            containerex.appendChild(x);
+            container.appendChild(containerex);
+
+            x.innerHTML = 'X';
+            sabor.innerHTML = `${i}`;
+
+        }
+
+    } else {
+        ativar--;
+        let container = document.getElementById('container-carrinho');
+        qtdpedido.removeChild(container);
     }
-
-    for(let i of adicionadas) {
-        let sabor = document.createElement('p');
-        container.appendChild(sabor);
-        sabor.innerHTML = `${i}`;
-    }
 }
 
-function fecharCarrinho() {
-    let containerC = document.getElementsByClassName('.container-carrinho');
-    containerC.style.display = 'none'
-}
 
-if(!criarCarrinho) {
-    carrinho.addEventListener('click', criarCarrinho)
-} else {
-    carrinho.addEventListener('click', fecharCarrinho)
-}
+carrinho.addEventListener('click', criarCarrinho);
+
+
+
 
