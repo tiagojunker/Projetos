@@ -376,6 +376,15 @@ h2 > span{
         display: none;
     }
 
+    .conteudo2{
+        margin: auto;
+    }
+
+    .conteudo2 img{
+        width: 75%;
+        float: right;
+    }
+
 }
 
 /*Criados com JavaScript*/
