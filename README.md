@@ -1,5 +1,5 @@
 # VEJA ALGUNS PROJETOS FINALIZADOS!!
-## Técnologias - HTML, CSS e JavaScript.
+## Tecnologias - HTML, CSS e JavaScript.
 
 Sessão dedicada a deixar os projetos de HTML5, CSS3 e JavaScript já concluidos!
 <br>Projetos Propostos:
