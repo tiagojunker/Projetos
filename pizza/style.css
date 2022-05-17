@@ -231,7 +231,7 @@ h2 > span{
 }
 
 .btnAdd{
-    max-width: 310px;
+    max-width: 350px;
     width: 100%;
     background-color: #4d4d4d;
     color: white;
@@ -257,6 +257,7 @@ h2 > span{
     align-content: center;
     justify-content: space-between;
     text-align: center;
+    overflow: hidden;
 }
 
 /* Inicio da section 4*/
@@ -264,7 +265,7 @@ h2 > span{
 .container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 30px 0;
     background-color: #4d4d4d;
@@ -278,15 +279,22 @@ h2 > span{
 }
 
 .conteudo1 h3{
-    font-size: 180%;
-    color: white;
+    text-align: right;
+    font-size: 220%;
+    color: yellow;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.719);
 }
 
 .conteudo1 p{
-    font-size: 120%;
+    text-align: right;
+    font-size: 140%;
     color: white;
     min-width: 400px;
+}
+
+.conteudo1 p img{
+    width: 20px;
+    align-self: center;
 }
 
 .conteudo2{
@@ -296,7 +304,7 @@ h2 > span{
 }
 
 .conteudo2 img{
-    width: 70%;
+    width: 50%;
     border-radius: 10px;
 }
 
