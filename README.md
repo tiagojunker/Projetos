@@ -17,8 +17,12 @@ O Site clone <a href="https://tiagojunker.github.io/Projetos/projeto-disney/inde
 
 O Site clone <a href="https://tiagojunker.github.io/Projetos/linkedin/index.html" target="_blank">Linkedin</a>.
 
+"TO DO LIST" criado durante uma das aulas de Javascript <a href="https://tiagojunker.github.io/Projetos/To%20do%20List/index.html" target="_blank">Lista de Tarefas</a>.
+
 O Gerador de Numeros da Mega é um projeto feito com HTML, CSS e JavaScript que gera numeros aleatórios entre 1 e 60
 não repetidos e preenche para o usuário um jogo com estes numeros. <a href="https://tiagojunker.github.io/Projetos/mega/index.html" target="_blank">Gerador de números Mega-Sena</a>.
 
 O projeto pizza foi feito com o propósito de Implementar um "TO DO LIST" em um aplicação real, que no caso em questãoo foi inserido no carrinho adicionando ou
 removendo pedidos. <a href="https://tiagojunker.github.io/Projetos/pizza/index.html" target="_blank">Pizza Planet</a>.
+
+
